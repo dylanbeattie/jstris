@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "snowpack": "^3.8.3"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "test": "jest"
+  }
+}
