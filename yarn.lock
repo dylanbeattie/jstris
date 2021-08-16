@@ -1207,6 +1207,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.15.3":
+  version: 7.15.3
+  resolution: "@babel/runtime@npm:7.15.3"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: 2f0b8d2d4e36035ab1d84af0ec26aafa098536870f27c8e07de0a0e398f7a394fdea68a88165535ffb52ded6a68912bdc3450bdf91f229eb132e1c89470789f5
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.8.4":
   version: 7.14.8
   resolution: "@babel/runtime@npm:7.14.8"
@@ -6356,6 +6365,7 @@ fsevents@~2.1.2:
     "@babel/core": ^7.15.0
     "@babel/plugin-transform-runtime": ^7.15.0
     "@babel/preset-env": ^7.15.0
+    "@babel/runtime": ^7.15.3
     babel-jest: ^27.0.6
     jest: ^27.0.6
     snowpack: ^3.8.3

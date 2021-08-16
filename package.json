@@ -10,5 +10,9 @@
   "scripts": {
     "start": "snowpack dev",
     "test": "jest"
+  },
+  "packageManager": "yarn@3.0.1",
+  "dependencies": {
+    "@babel/runtime": "^7.15.3"
   }
 }
