@@ -104,4 +104,10 @@ dist
 .tern-port
 
 # Yarn 2.0 yarn folder
-.yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
