@@ -1,0 +1,23 @@
+$cellSize: 16px;
+
+div.tetris-grid {
+    margin: 0;
+    padding: 0;
+    span {
+        width: $cellSize;
+        height: $cellSize;
+        display: inline-block;
+        margin: 1px;        
+        border: 1px solid red;
+
+        &.block {
+            background-color: #06f;
+        }
+        &.wide-block {
+            background-color: #930;
+        }
+        &.tall-block {
+            background-color: #0c6;
+        }
+    }
+}
